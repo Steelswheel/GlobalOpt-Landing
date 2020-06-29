@@ -1,0 +1,22 @@
+.button {
+    display: block;
+    background-color: $main_color_red;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    &_call {
+        width: 160px;
+        height: 45px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    &_big {
+        width: 230px;
+        height: 57px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+}

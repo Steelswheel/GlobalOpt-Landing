@@ -1,0 +1,21 @@
+.menu {
+    display: flex;
+    padding-left: 0;
+    li {
+        list-style-type: none;
+        padding: 0 12px;
+        border-right: 1px dotted rgba(255, 255, 255, 0.4);
+        font-size: 15px;
+        &:last-child {
+            border-right: none;
+        }
+    }
+    a {
+        text-decoration: none;
+        color: #fff;
+        &:hover {
+            color: $main_color_red;
+            border-bottom: 1px solid $main_color_red;
+        }
+    }
+}

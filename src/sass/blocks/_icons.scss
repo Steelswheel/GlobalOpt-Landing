@@ -1,0 +1,29 @@
+.icons {
+    margin-top: 27px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.38;
+        text-align: center;
+        color: #ffffff;
+        max-width: 260px;
+        margin-right: 40px;
+        &:last-child {
+            margin-right: 0;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 19px;
+        }
+    }
+    .button {
+        margin: 0 auto;
+        margin-top: 39px;
+    }
+}
