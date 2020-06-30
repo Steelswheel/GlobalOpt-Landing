@@ -1,0 +1,47 @@
+.price-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__item {
+        max-width: 265px;
+        text-align: center;
+        border: solid 1px #e9e9e9;
+    }
+    &__header {
+        background-color: $main-color-blue;
+        min-height: 61px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 700;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+    &__icon {
+        display: block;
+        margin: 14px auto 12px auto;
+    }
+    &__title {
+        font-size: 14px;
+        font-weight: 300;
+        color: #2e2e2e;
+        line-height: 1.64;
+    }
+    &__subtitle {
+        font-size: 28px;
+        color: $main_color_red;
+        line-height: 1.07;
+    }
+    &__text {
+        margin-top: 19px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.43;
+        color: #2e2e2e;
+    }
+    &__button {
+        margin-top: 25px;
+        margin: 25px auto;
+    }
+}

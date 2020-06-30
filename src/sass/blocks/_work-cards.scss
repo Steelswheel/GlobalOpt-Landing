@@ -1,0 +1,23 @@
+.work-cards {
+    display: flex;
+    justify-content: space-between;
+    &__item {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.57;
+        letter-spacing: normal;
+        max-width: 360px;
+        color: #3a3a3a;
+        text-align: justify;
+        img {
+            display: block;
+        }
+        div {
+            margin-top: 28px;
+            font-size: 18px;
+            font-weight: 700;
+            color: #ec644b;
+            text-align: center;
+        }
+    }
+}

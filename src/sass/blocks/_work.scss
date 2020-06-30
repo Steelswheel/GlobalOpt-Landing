@@ -1,0 +1,14 @@
+.work {
+    min-height: 620px;
+    padding: 51px 0 57px 0;
+    &__subtitle {
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 1.14;
+        text-align: center;
+        color: #2e2e2e;
+    }
+    &__work-cards {
+        margin-top: 37px;
+    }
+}

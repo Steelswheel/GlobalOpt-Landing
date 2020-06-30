@@ -1,0 +1,17 @@
+.title {
+    &_black {
+        text-transform: uppercase;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 0.88;
+        text-align: center;
+        color: #2e2e2e;
+    }
+    &_white {
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 0.88;
+        text-align: center;
+        color: #ffffff;
+    }
+}
