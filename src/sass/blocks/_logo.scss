@@ -1,0 +1,19 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 102px;
+    width: 102px;
+    border-radius: 100%;
+    img {
+        display: block;
+        width: 50%;
+    }
+    &_white {
+        border: 1px solid #fff;
+    }
+    &_red {
+        border: 1px solid $main_color_red;
+    }
+}

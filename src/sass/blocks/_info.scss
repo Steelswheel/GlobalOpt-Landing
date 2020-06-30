@@ -1,0 +1,22 @@
+.info {
+    text-align: center;
+    padding: 58px 0 75px 0;
+    min-height: 342px;
+    &_agent {
+        background: url(../img/agent.jpg) center (center/cover) no-repeat;
+    }
+    &_managers {
+        background: url(../img/managers.jpg) center (center/cover) no-repeat;
+    }
+    &__title {
+        margin-top: 20px;
+    }
+    &__subtitle {
+        margin-top: 22px;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 1.42;
+        text-align: center;
+        color: #ffffff;
+    }
+}

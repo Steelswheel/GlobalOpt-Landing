@@ -1,0 +1,38 @@
+.scheme {
+    min-height: 454px;
+    padding: 51px 0 46px 0;
+    &__icons {
+        margin-top: 29px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &:last-child {
+            margin-top: 29px;
+            justify-content: center;
+            .scheme__icon {
+                margin: 0 20px;
+            }
+        }
+    }
+    &__icon {
+        text-align: center;
+        img {
+            max-height: 50px;
+            max-width: 50px;
+        }
+        div {
+            margin-top: 11px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.43;
+            color: #3a3a3a;
+        }
+        span {
+            font-size: 16px;
+            font-weight: 700;
+            color: $main_color_red;
+        }
+    }
+}
