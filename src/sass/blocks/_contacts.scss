@@ -1,0 +1,24 @@
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__phone {
+        margin-right: 19px;
+
+        div {
+            font-size: 14px;
+            font-weight: 300;
+            color: #fff;
+            text-align: right;
+        }
+
+        a {
+            font-size: 19px;
+            font-weight: 700;
+            text-align: right;
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+}
+

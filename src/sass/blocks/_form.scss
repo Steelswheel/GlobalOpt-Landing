@@ -1,0 +1,99 @@
+.form {
+    display: block;
+    input {
+        width: 33%;
+        height: 45px;
+        border: solid 1px rgba(0, 0, 0, 0.4);
+        border-radius: 20px;
+        padding-left: 30px;
+    }
+    &__header {
+        height: 68px;
+        background-color: $main-color-blue;
+        border: none;
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__title {
+        font-size: 19px;
+        font-weight: 700;
+    }
+    &__subtitle {
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__wrapper {
+        border: none;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 17px 42px 25px 42px;
+    }
+    &_consultation {
+        min-height: 166px;
+        position: relative;
+
+        input {
+            margin: 7px 0 53px 0;
+        }
+
+        button {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%) translateY(-25%);
+            bottom: calc(width/2);
+
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 13px;
+                height: 45px;
+                left: 0;
+                transform: translateX(-100%) translateY(-25%);
+                bottom: calc(width/2);
+                background-color: #fff;
+            }
+
+            &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 13px;
+                height: 45px;
+                right: 0;
+                transform: translateX(100%) translateY(-75%);
+                bottom: calc(width/2);
+                background-color: #fff;
+            }
+        }
+
+        fieldset {
+            border: 1px solid #898989;
+        }
+
+        legend {
+            padding: 0 13px;
+        }
+    }
+    &_questions {
+        min-height: 296px;
+        max-width: 896px;
+        textarea {
+            margin-top: 8px;
+            width: 100%;
+            height: 71px;
+            resize: none;
+            border: solid 1px rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+            padding: 18px 0 35px 25px;
+            color: #616467;
+        }
+        button {
+            margin: 17px auto 0 auto;
+        }
+    }
+}

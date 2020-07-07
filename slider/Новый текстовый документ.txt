@@ -1,0 +1,53 @@
+<section class="reviews">
+        <div class="container">
+            <div class="title title_black">отзывы наших клиентов</div>
+            <hr class="red-line">
+            <div class="subtitle">Мы всегда стараемся помочь клиентам, что бы они обращались к нам
+                снова</div>
+            <div class="slider">
+                <button class="slider__prev"><img src="icons/left-arrow.png" alt=""></button>
+                <button class="slider__next"><img src="icons/right-arrow.png" alt=""></button>
+                <ul class="slider__wrapper">
+                    <li>
+                        <div class="slider__item">
+                            <img src="img/slider.jpg" alt="1">
+                            <div class="slider__text">
+                                <span>Анисимова Ольга</span><br>
+                                Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного
+                                товара.
+                                Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды.
+                                Буду
+                                продолжать пользтваьбся услугами даной компании
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slider__item">
+                            <img src="img/slider.jpg" alt="1">
+                            <div class="slider__text">
+                                <span>Анисимова Ольга</span><br>
+                                Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного
+                                товара.
+                                Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды.
+                                Буду
+                                продолжать пользтваьбся услугами даной компании
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slider__item">
+                            <img src="img/slider.jpg" alt="1">
+                            <div class="slider__text">
+                                <span>Анисимова Ольга</span><br>
+                                Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного
+                                товара.
+                                Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды.
+                                Буду
+                                продолжать пользтваьбся услугами даной компании
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>

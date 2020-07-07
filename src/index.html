@@ -11,7 +11,7 @@
     <section class="promo">
         <div class="container">
             <header class="header">
-                <img src="img/header_logo.png" alt="logo" class="header__logo">
+                <img src="img/header_logo.png" alt="logo">
                 <ul class="menu">
                     <li class="menu__item"><a href="#">Преимущества</a></li>
                     <li class="menu__item"><a href="#">Наша работа</a></li>
@@ -20,8 +20,8 @@
                     <li class="menu__item"><a href="#">Отзывы</a></li>
                     <li class="menu__item"><a href="#">Контакты</a></li>
                 </ul>
-                <div class="header__contacts">
-                    <div class="header__phone">
+                <div class="contacts">
+                    <div class="contacts__phone">
                         <div>Есть вопросы?</div>
                         <a href="tel:+79264230100">+7 (926) 423 01 00</a>
                     </div>
@@ -144,7 +144,7 @@
         <div class="container">
             <div class="title title_black">Наша работа - больше чем просто доставка</div>
             <hr class="red-line">
-            <div class="work__subtitle">Мы организуем перевозки из Китая - оперативно и надежно, с учетом особенностей груза<br> и ваших требований по срокам и бюджету.</div>
+            <div class="subtitle">Мы организуем перевозки из Китая - оперативно и надежно, с учетом особенностей груза<br> и ваших требований по срокам и бюджету.</div>
             <div class="work-cards work__work-cards">
                 <div class="work-cards__item">
                     <img src="img/work_1.jpg" alt="1">
@@ -176,7 +176,7 @@
                 <img src="icons/agent.png" alt="agent">
             </div>
             <div class="title title_white info__title">Агент в Китае</div>
-            <div class="info__subtitle">
+            <div class="sutitle subtitle_white info__subtitle">
                 Русскоговорящие представители компании без труда найдут именно тот товар, который будет отвечать Вашим<br>
                 запросам как по качеству, так и по цене.
             </div>
@@ -187,7 +187,7 @@
         <div class="container">
             <div class="title title_black">цены на любой вариант доставки</div>
             <hr class="red-line">
-            <div class="price__subtitle">Перевозки грузов на дальние расстояния без каких-либо ограничений.<br> Любой груз доставим вовремя. </div>
+            <div class="subtitle">Перевозки грузов на дальние расстояния без каких-либо ограничений.<br> Любой груз доставим вовремя. </div>
             <div class="price-cards price__price-cards">
                 <div class="price-cards__item">
                     <div class="price-cards__header">доставка морем</div>
@@ -206,10 +206,10 @@
                     <div class="price-cards__header">ж/д доставка</div>
                     <div class="price-cards__content">
                         <img src="icons/price_2.png" alt="2" class="price-cards__icon">
-                        <div class="price-cards__title">доставка 35-50 дней</div>
-                        <div class="price-cards__subtitle">от 0,3$ за 1 кг</div>
+                        <div class="price-cards__title">доставка 15-28 дней</div>
+                        <div class="price-cards__subtitle">от 1$ за 1 кг</div>
                         <div class="price-cards__text">
-                            Морские перевозки грузов из Китая в Россию за 35 дней
+                            ЖД перевозки грузов из Китая в Россию от 2 недель
                             с прохождением таможни
                         </div>
                         <button class="button button_small price-cards__button">подробнее</button>
@@ -220,9 +220,9 @@
                     <div class="price-cards__content">
                         <img src="icons/price_3.png" alt="3" class="price-cards__icon">
                         <div class="price-cards__title">доставка 35-50 дней</div>
-                        <div class="price-cards__subtitle">от 0,3$ за 1 кг</div>
+                        <div class="price-cards__subtitle">от 1$ за 1 кг</div>
                         <div class="price-cards__text">
-                            Морские перевозки грузов из Китая в Россию за 35 дней
+                            Автоперевозки грузов из Китая в Россию от 2 недель
                             с прохождением таможни
                         </div>
                         <button class="button button_small price-cards__button">подробнее</button>
@@ -233,9 +233,9 @@
                     <div class="price-cards__content">
                         <img src="icons/price_4.png" alt="4" class="price-cards__icon">
                         <div class="price-cards__title">доставка 35-50 дней</div>
-                        <div class="price-cards__subtitle">от 0,3$ за 1 кг</div>
+                        <div class="price-cards__subtitle">от 6$ за 1 кг</div>
                         <div class="price-cards__text">
-                            Морские перевозки грузов из Китая в Россию за 35 дней
+                            Авиаперевозки грузов из Китая в Россию до 2 недель
                             с прохождением таможни
                         </div>
                         <button class="button button_small price-cards__button">подробнее</button>
@@ -248,7 +248,7 @@
     <section class="consultation">
         <div class="container">
             <div class="consultation__title">Заказать бесплатную консультацию</div>
-            <form action="#" class="form consultation__form">
+            <form action="#" class="form form_consultation consultation__form">
                 <fieldset>
                     <legend>
                         <div class="logo logo_red">
@@ -270,7 +270,7 @@
                 <img src="icons/managers.png" alt="agent">
             </div>
             <div class="title title_white info__title">Менеджеры в Китае</div>
-            <div class="info__subtitle">
+            <div class="subtitle subtitle_white info__subtitle">
                 Подберут для Вас оптимальную схему грузоперевозки. Проведут контроль закупок, организуют прямые<br>
                 поставки от завода-изготовителя.
             </div>
@@ -340,28 +340,54 @@
         </div>
     </section>
 
-    <section class="reviews">
+    <div class="questions">
         <div class="container">
-
+            <form action="#" class="form form_questions questions__form">
+                <div class="form__header">
+                    <div class="form__title">Остались вопросы?</div>
+                    <div class="form__subtitle">Напишите нам!</div>
+                </div>
+                <div class="form__wrapper">
+                    <div>
+                        <input name="name" placeholder="Ваше имя...">
+                        <input name="phone" placeholder="Ваш номер телефона...">
+                        <input name="mail" placeholder="Ваше имя...">
+                    </div>
+                    <textarea name="message" placeholder="Сообщение..."></textarea>
+                    <button class="button button_form">отправить заявку</button>
+                </div>
+            </form>
         </div>
-    </section>
+    </div>
 
-    <section class="questions">
+    <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.606545524071!2d37.62502931582823!3d55.747964980551984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54af8f4b2bb81%3A0x45d8b81f41916c35!2z0KHQsNC00L7QstC90LjRh9C10YHQutCw0Y8g0YPQuy4sIDUsINCc0L7RgdC60LLQsCwgMTE1MDM1!5e0!3m2!1sru!2sru!4v1594127187453!5m2!1sru!2sru"
+                ></iframe>
+    </div>
+
+    <footer class="footer">
         <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__title"><img src="img/footer_main_logo.png" alt="logo"> Global Opt - Доставка грузов из Китая в Россию и СНГ</div>
+                <div class="contacts">
+                    <div class="contacts__phone">
+                        <div>Есть вопросы?</div>
+                        <a href="tel:+79264230100">+7 (926) 423 01 00</a>
+                    </div>
+                    <button class="button button_call">перезвоните мне</button>
+                </div>
+            </div>
 
+            <div class="footer__wrapper">
+                <div>© 2010 Scratch.com.ua</div>
+                <a href="#">Политика конфиденциальности</a>
+                <div class="footer__dev-logo">Создание сайта: <img src="img/footer_logo.png" alt=""></div>
+            </div>
         </div>
-    </section>
+    </footer>
 
-    <section class="map">
-        <div class="container">
-
-        </div>
-    </section>
-
-    <section class="footer">
-        <div class="container">
-
-        </div>
-    </section>
+    <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
 </body>
 </html>

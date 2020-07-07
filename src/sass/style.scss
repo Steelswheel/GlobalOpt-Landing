@@ -19,12 +19,14 @@ h1, h2 {
 @import 'base/variables';
 @import 'blocks/promo';
 @import 'blocks/header';
+@import 'blocks/contacts';
 @import 'blocks/menu';
 @import 'blocks/button';
 @import 'blocks/icons';
 @import 'blocks/advantages';
 @import 'blocks/title';
 @import 'blocks/work';
+@import 'blocks/subtitle';
 @import 'blocks/work-cards';
 @import 'blocks/red-line';
 @import 'blocks/info';
@@ -34,3 +36,6 @@ h1, h2 {
 @import 'blocks/logo';
 @import 'blocks/form';
 @import 'blocks/scheme';
+@import 'blocks/questions';
+@import 'blocks/map';
+@import 'blocks/footer';
